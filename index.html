@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AppleGolden</title>
+    <link rel="icon" href="img/golden_delicious_500.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <header id="home"> 
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+              <a class="navbar-brand" href="#">AppleGolden</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                  <a class="nav-link" href="#action">Action</a>
+                  <a class="nav-link" href="#products">Products</a>
+                  <a class="nav-link" href="#cart">Cart</a>
+                </div>
+              </div>
+            </div>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+          </nav>
+          <section class="banner container">
+          <div id="carouselProducts" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/golden_delicious_500.png" class="d-block w-100" alt="AppleGolden">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>Welcom to<br>AppleGolden</h1>
+                    <p class="subheading">only with us!!!</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/10.1595274843.SNCPSG10.obj.0.1.jpg.oe.jpg.pf.jpg.350nowm.jpg.350x.jpg" class="d-block w-100" alt="AppleGolden">
+                <div class="carousel-caption d-none d-md-block">
+                    <p class="subheading">the best prices!!!</p> 
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/unnamed (1).jpg" class="d-block w-100" alt="AppleGolden">
+                <div class="carousel-caption d-none d-md-block">
+                    <p class="subheading">the best quality!!!</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselProducts" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselProducts" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </section>
+    </header>
+    <main>
+        <div id="products" class="p-3 mb-2 bg-dark text-white">Products</div>
+        <div class="products-list row">
+            <article class="card col-12 col-sm-6 col-md-4 col-lg-3">
+                <img src="img/golden_delicious_500.png" class="card-img-top" alt="AppleGolden">
+                    <div class="card-body">
+                      <h5 class="card-title">Apple</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <div class="d-flex justify-content-around">
+                        <button type="button" class="btn btn-info">Info</button>
+                        <button type="button" class="btn btn-primary">Buy</button>
+                      </div>
+                    </div>
+            </article>
+            <article class="card col-12 col-sm-6 col-md-4 col-lg-3">
+                <img src="img/10.1595274843.SNCPSG10.obj.0.1.jpg.oe.jpg.pf.jpg.350nowm.jpg.350x.jpg" class="card-img-top" alt="AppleGolden">
+                    <div class="card-body">
+                      <h5 class="card-title">Apple</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <div class="d-flex justify-content-around">
+                        <button type="button" class="btn btn-info">Info</button>
+                        <button type="button" class="btn btn-primary">Buy</button>
+                      </div>
+                    </div>
+            </article>
+            <article class="card col-12 col-sm-6 col-md-4 col-lg-3">
+                <img src="img/unnamed (1).jpg" class="card-img-top" alt="AppleGolden">
+                    <div class="card-body">
+                      <h5 class="card-title">Apple</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <div class="d-flex justify-content-around">
+                        <button type="button" class="btn btn-info">Info</button>
+                        <button type="button" class="btn btn-primary">Buy</button>
+                      </div>
+                    </div>
+            </article>
+            <article class="card col-12 col-sm-6 col-md-4 col-lg-3">
+                <img src="img/golden_delicious_500.png" class="card-img-top" alt="AppleGolden">
+                    <div class="card-body">
+                      <h5 class="card-title">Apple</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <div class="d-flex justify-content-around">
+                        <button type="button" class="btn btn-info">Info</button>
+                        <button type="button" class="btn btn-primary">Buy</button>
+                      </div>
+                    </div>
+            </article>
+            <article class="card col-12 col-sm-6 col-md-4 col-lg-3">
+                <img src="img/10.1595274843.SNCPSG10.obj.0.1.jpg.oe.jpg.pf.jpg.350nowm.jpg.350x.jpg" class="card-img-top" alt="AppleGolden">
+                    <div class="card-body">
+                      <h5 class="card-title">Apple</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <div class="d-flex justify-content-around">
+                        <button type="button" class="btn btn-info">Info</button>
+                        <button type="button" class="btn btn-primary">Buy</button>
+                      </div>
+                    </div>
+            </article>
+            <article class="card col-12 col-sm-6 col-md-4 col-lg-3">
+                <img src="img/unnamed (1).jpg" class="card-img-top" alt="AppleGolden">
+                    <div class="card-body">
+                      <h5 class="card-title">Apple</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <div class="d-flex justify-content-around">
+                        <button type="button" class="btn btn-info">Info</button>
+                        <button type="button" class="btn btn-primary">Buy</button>
+                      </div>
+                    </div>
+            </article>
+            <article class="card col-12 col-sm-6 col-md-4 col-lg-3">
+                <img src="img/golden_delicious_500.png" class="card-img-top" alt="AppleGolden">
+                    <div class="card-body">
+                      <h5 class="card-title">Apple</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <div class="d-flex justify-content-around">
+                        <button type="button" class="btn btn-info">Info</button>
+                        <button type="button" class="btn btn-primary">Buy</button>
+                      </div>
+                    </div>
+            </article>
+            <article class="card col-12 col-sm-6 col-md-4 col-lg-3">
+                <img src="img/10.1595274843.SNCPSG10.obj.0.1.jpg.oe.jpg.pf.jpg.350nowm.jpg.350x.jpg" class="card-img-top" alt="AppleGolden">
+                    <div class="card-body">
+                      <h5 class="card-title">Apple</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <div class="d-flex justify-content-around">
+                        <button type="button" class="btn btn-info">Info</button>
+                        <button type="button" class="btn btn-primary">Buy</button>
+                      </div>
+                    </div>
+            </article>
+        </div>
+    </main>
+    <footer>
+        <h2>Contacts</h2>
+        <form action="email?????" method="post">
+            <lable>
+                Your name:
+                <input type="text" name="user-name" placeholder="Your name">
+            </lable>
+        </form>
+        <form>
+            Your email:
+            <input type="text" name="user-email" placeholder="Your email">
+            <br>
+            <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="Tooltip on top">
+                Submit
+        </form>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>
