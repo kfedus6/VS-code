@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AppleGolden12</title>
+    <title>AppleGolden</title>
     <link rel="icon" href="img/golden_delicious_500.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="css/index.css">
@@ -23,6 +23,7 @@
                   <a class="nav-link" href="#action">Action</a>
                   <a class="nav-link" href="#products">Products</a>
                   <a class="nav-link" href="#cart">Cart</a>
+                  <a class="nav-link" href="#contacts">Contacts</a>
                 </div>
               </div>
             </div>
@@ -71,7 +72,10 @@
         </section>
     </header>
     <main>
-        <div id="products" class="p-3 mb-2 bg-dark text-white">Products</div>
+        <div id="products" class="p-3 mb-2 bg-dark text-white">
+          <h2>Products</h2>
+          <div class="clock"></div>
+        </div>
         <div class="products-list row">
             <article class="card col-12 col-sm-6 col-md-4 col-lg-3">
                 <img src="img/golden_delicious_500.png" class="card-img-top" alt="AppleGolden">
@@ -139,31 +143,14 @@
                       </div>
                     </div>
             </article>
-            <article class="card col-12 col-sm-6 col-md-4 col-lg-3">
-                <img src="img/golden_delicious_500.png" class="card-img-top" alt="AppleGolden">
-                    <div class="card-body">
-                      <h5 class="card-title">Apple</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <div class="d-flex justify-content-around">
-                        <button type="button" class="btn btn-info">Info</button>
-                        <button type="button" class="btn btn-primary">Buy</button>
-                      </div>
-                    </div>
-            </article>
-            <article class="card col-12 col-sm-6 col-md-4 col-lg-3">
-                <img src="img/10.1595274843.SNCPSG10.obj.0.1.jpg.oe.jpg.pf.jpg.350nowm.jpg.350x.jpg" class="card-img-top" alt="AppleGolden">
-                    <div class="card-body">
-                      <h5 class="card-title">Apple</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <div class="d-flex justify-content-around">
-                        <button type="button" class="btn btn-info">Info</button>
-                        <button type="button" class="btn btn-primary">Buy</button>
-                      </div>
-                    </div>
-            </article>
         </div>
     </main>
-    <footer>
+    <footer id="contacts">
+      <nav>
+      <div class="logo">
+        <img src="img/photo_2021-06-15_14-52-19.jpg" alt="AppleGolden">
+      </div>
+      <div class="contacts">
         <h2>Contacts</h2>
         <form action="email?????" method="post">
             <lable>
@@ -175,10 +162,62 @@
             Your email:
             <input type="text" name="user-email" placeholder="Your email">
             <br>
-            <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="Tooltip on top">
-                Submit
+            <button type="button" class="btn btn-success">Submit</button>
         </form>
+      </div>
+    </nav>
+      <div class="menu">
+        <div class="secodary-menu"></div>
+        <span class="title-h3">Company</span>
+        <ul>
+          <li class=" ">
+            <a href="#aaaaa">aaaaa</a>
+          </li>
+          <li class>
+            <a href="#aaaaa">aaaaa</a>
+          </li>
+          <li class>
+            <a href="#aaaaa">aaaaa</a>
+          </li>
+          <li class>
+            <a href="#aaaaa">aaaaa</a>
+          </li>
+          <li class>
+            <a href="#aaaaa">aaaaa</a>
+          </li>
+          <li class>
+            <a href="#aaaaa">aaaaa</a>
+          </li>
+        </ul>
+      </div>
+      <div class="secondary-menu">
+        <span class="title-h3">about us</span>
+        <ul>
+          <li class=" ">
+            <a href="#bbbbb">bbbbb</a>
+          </li>
+          <li class>
+            <a href="#bbbbb">bbbbb</a>
+          </li>
+          <li class>
+            <a href="#bbbbb">bbbbb</a>
+          </li>
+          <li class>
+            <a href="#bbbbb">bbbbb</a>
+          </li>
+          <li class>
+            <a href="#bbbbb">bbbbb</a>
+          </li>
+          <li class>
+            <a href="#bbbbb">bbbbb</a>
+          </li>
+      </div>
+      </div>
+      <div class="contact-phone">
+        <a href="tel:0685612608">+38 (068) 561-26-08</a>
+      </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
 </body>
 </html>

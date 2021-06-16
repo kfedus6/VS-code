@@ -1,30 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Kurale&display=swap');
 
-#carouselProducts > div.carousel-inner > div > img {
-    max-width: 500px;
-    margin: auto;
+:root {
+    --main-color: black;
+    --accent-color: white;
 }
 
-#carouselProducts >div.carousel-inner > div > div > h1 {
-    color: black;
-}
-
-#carouselProducts >div.carousel-inner > div > div > p {
-    color: black;
-    font-size: 30px;
-}
-
-main > div#products {
-    font-size: 25px;
-}
-
-header > nav > div.container > a {
-    font-size: 30px;
-}
-
-footer {
-    margin-top: 20px;
-}
 
 body {
     max-width: 980px;
@@ -32,3 +12,67 @@ body {
     font-family: 'Kurale', serif;
     scroll-behavior: smooth;
 }
+
+
+#carouselProducts > div.carousel-inner > div > img {
+    max-width: 500px;
+    margin: auto;
+}
+
+#carouselProducts >div.carousel-inner > div > div > h1 {
+    color: var(--main-color);
+}
+
+#carouselProducts >div.carousel-inner > div > div > p {
+    color: var(--main-color);
+    font-size: 30px;
+}
+
+main > div#products {
+    display: flex;
+    justify-content: space-between;
+}
+
+main > div#products > h2 {
+    font-size: 35px;
+}
+
+main > div#products > div.clock {
+    font-size: 30px;
+}
+
+header > nav > div.container > a {
+    font-size: 30px;
+}
+
+main > div.products-list.row {
+    padding: 15px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: var(--main-color);
+    padding: 20px;
+}
+
+footer > div.menu {
+    margin-top: 50px;
+}
+
+footer > div.secondary-menu {
+    margin-top: 50px;
+}
+
+footer > div.contact-phone {
+    margin-top: 50px;
+}
+
+footer > nav > div.logo > img {
+    max-width: 300px;
+}
+
+
+
+
