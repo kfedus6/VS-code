@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Kurale&display=swap');
+
+
+header > nav > div.container > a {
+    font-size: 30px;
+}
+
+
+main {
+    margin-top: 55px;
+    padding-left: 50px;
+    font-size: 20px;
+    display: table-caption;
+}
+
+
+body {
+    max-width: 980px;
+    margin: auto;
+    font-family: 'Kurale', serif;
+    scroll-behavior: smooth;
+}

@@ -51,28 +51,12 @@ main > div.products-list.row {
 
 footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     color: white;
     background-color: var(--main-color);
     padding: 20px;
 }
 
-footer > div.menu {
-    margin-top: 50px;
-}
-
-footer > div.secondary-menu {
-    margin-top: 50px;
-}
-
-footer > div.contact-phone {
-    margin-top: 50px;
-}
-
 footer > nav > div.logo > img {
     max-width: 300px;
 }
-
-
-
-
