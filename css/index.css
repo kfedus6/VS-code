@@ -60,3 +60,13 @@ footer {
 footer > nav > div.logo > img {
     max-width: 300px;
 }
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color:green;
+    text-decoration: underline;
+}

@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Kurale&display=swap');
+
+
+header > nav > div.container > a {
+    font-size: 30px;
+}
+
+main > div.product-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-list .product img {
+    display: block;
+    width: 80%;
+}
+
+
+
+main > div.product-list > article.product.col-lg-4.col-md-4.col-sm-4.col-xs-6 {
+    border-radius: 40px;
+    box-sizing: border-box;
+    box-shadow: 0 1.5em 2em -1em rgb(237, 253, 8);
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+article:hover {
+    outline: 2px solid green;
+}
+
+main > div.product-list > article.product.col-lg-4.col-md-4.col-sm-4.col-xs-6 > h3 {
+    text-align: center;
+}
+
+main > div.product-list > article.product.col-lg-4.col-md-4.col-sm-4.col-xs-6 > p {
+    text-align: center;
+}
+
+main > div.product-list > article.product.col-lg-4.col-md-4.col-sm-4.col-xs-6 > div.button {
+    text-align: center;
+}
+
+main > div.product-list > article.product.col-lg-4.col-md-4.col-sm-4.col-xs-6 > div.features {
+    position: absolute;
+    font-size: 25px;
+    background: green;
+    white-space: nowrap;
+    padding:0 8px;
+    line-height: 30px;
+    color: #fff;
+    border-radius: 12px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+h3:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+
+
+body {
+    max-width: 980px;
+    margin: auto;
+    font-family: 'Kurale', serif;
+    scroll-behavior: smooth;
+}
+
